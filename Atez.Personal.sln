@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atez.Personal.Api", "Atez.Personal.Api\Atez.Personal.Api.csproj", "{A6971391-3390-4C5A-83C2-2C54C3F47338}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atez.Personal.Data", "Atez.Personal.Data\Atez.Personal.Data.csproj", "{C66D6406-24A9-44FC-B0D2-50707CEEBA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atez.Personal.Service", "Atez.Personal.Service\Atez.Personal.Service.csproj", "{D2C3B327-77B8-40C9-A196-72105D852569}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,13 @@ Global
 		{A6971391-3390-4C5A-83C2-2C54C3F47338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6971391-3390-4C5A-83C2-2C54C3F47338}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6971391-3390-4C5A-83C2-2C54C3F47338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66D6406-24A9-44FC-B0D2-50707CEEBA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66D6406-24A9-44FC-B0D2-50707CEEBA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66D6406-24A9-44FC-B0D2-50707CEEBA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66D6406-24A9-44FC-B0D2-50707CEEBA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C3B327-77B8-40C9-A196-72105D852569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C3B327-77B8-40C9-A196-72105D852569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C3B327-77B8-40C9-A196-72105D852569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C3B327-77B8-40C9-A196-72105D852569}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

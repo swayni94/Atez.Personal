@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atez.Personal.Data", "Atez.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atez.Personal.Service", "Atez.Personal.Service\Atez.Personal.Service.csproj", "{D2C3B327-77B8-40C9-A196-72105D852569}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{38B6EC20-AE36-4CE2-BB88-47D31173116E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +27,9 @@ Global
 		{D2C3B327-77B8-40C9-A196-72105D852569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2C3B327-77B8-40C9-A196-72105D852569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2C3B327-77B8-40C9-A196-72105D852569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B6EC20-AE36-4CE2-BB88-47D31173116E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B6EC20-AE36-4CE2-BB88-47D31173116E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B6EC20-AE36-4CE2-BB88-47D31173116E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B6EC20-AE36-4CE2-BB88-47D31173116E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

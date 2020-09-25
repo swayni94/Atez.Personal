@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  atez.personal.api:
+    image: ${DOCKER_REGISTRY-}atezpersonal
+    build:
+      context: .
+      dockerfile: Atez.Personal.Api/Dockerfile
+
+  postgres:
+    container_name: 'postgres'
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: password
+    networks:
+      - aspnetcoreapp-network
+
+networks:
+  aspnetcoreapp-network:
+    driver: bridge
+
+
